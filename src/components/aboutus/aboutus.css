@@ -1,0 +1,55 @@
+    .about-img{
+        height: 50vh;
+        width: 100%;
+        
+    }
+    
+    
+    .content-title{
+        background-color: #77044e;
+        color: #fff;
+      
+      
+        
+    }
+    .card-title{
+        height: 20vh;
+        font-size: 20px;
+    }
+    
+    .content {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        text-align: center;
+      
+ 
+    }
+    .img-bg{
+        height: 3000px;
+        
+       
+    }
+  
+    .about-card{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 15px;
+    
+   
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* Background blur */
+    -webkit-backdrop-filter: blur(10px); /* Background blur for Safari */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border to enhance glass effect */
+    text-align: center;
+    color: #fff; 
+    }
+    .title{
+        display: flex;
+        margin: auto;
+    }
+  

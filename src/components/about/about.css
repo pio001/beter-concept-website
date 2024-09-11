@@ -1,0 +1,70 @@
+/* styles for about image starts here */
+.about-img{
+  width: 100%;
+  height: 60vh;
+}
+/* styles for about image ends here */
+
+/* styles for about title starts here */
+.about-title{
+
+ color: #fff;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.bciti{
+  color: #77044e;
+  
+}
+/* styles for about title ends here */
+/* styles for  cards starts here */
+.title{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  margin-top:10px;
+  font-size: 2rem;
+}
+.content{
+  
+}
+.ab-btn{
+ margin: auto;
+height: 50px;
+width: 200px;
+background-color: transparent;
+color: #77044e;
+font-size: 20px;
+border:2px solid #77044e;
+}
+.ab-btn:hover{
+  background-color: #77044e;
+  color: #fff;
+}
+
+.our-mission{
+  display: flex;
+  flex-direction:column;
+  
+  height: 50vh;
+  width: 70%;
+  margin-right: 0px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 15px;
+  
+ 
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); /* Background blur */
+  -webkit-backdrop-filter: blur(10px); /* Background blur for Safari */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Border to enhance glass effect */
+  text-align: center;
+}

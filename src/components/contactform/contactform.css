@@ -1,0 +1,42 @@
+.submit-btn{
+    background-color: #77044e !important;
+    border: none !important;
+    width: 100px;
+    
+}
+.contact-card{
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    
+   
+
+   
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    color:no;
+}
+.icon1{
+    color: red;
+}
+.icon2{
+    color: green;
+}
+.icon3{
+    color: blue;
+}
+.icon4{
+    color:green;
+}
+.icon5{
+    color: rgb(107, 5, 5);
+}
+.icon6{
+    color: blue;
+}

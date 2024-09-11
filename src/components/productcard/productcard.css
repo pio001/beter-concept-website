@@ -1,0 +1,17 @@
+.product-card{
+    width: 200px;          /* Width of the parallelogram */
+    height: 200px;         /* Height of the parallelogram */
+    background-color: transparent;  /* Background color of the parallelogram */
+    transform: skew(20deg); /* Skew to create the parallelogram effect */
+    margin: 10px;          /* Optional: Margin to position it nicely */
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product-card-text{
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    background-color: #77044e;
+    border-radius: 2px;
+    color: #fff;
+}

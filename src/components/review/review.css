@@ -1,0 +1,39 @@
+.content-title{
+    background-color: #77044e;
+    color: #fff;
+    margin-bottom: 20px;
+  
+    
+}
+.r-card{
+    padding: 3rem;
+}
+.review-card{
+   
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 15px;
+   
+    margin-bottom: 20px;
+   
+    
+   
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* Background blur */
+    -webkit-backdrop-filter: blur(10px); /* Background blur for Safari */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border to enhance glass effect */
+    text-align: center;
+    color: #fff; /* Text color */
+    padding: auto;
+}
+.review-card-content{
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff !important;
+}
+.review-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 7.5px;
+    object-fit: cover;
+}
